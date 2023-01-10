@@ -15,5 +15,17 @@ export default function App() {
       .addPhoto(contactData.image.data, contactData.image.mime);
     download(myVCard.toString(), "dlText.vcf");
   };
-  return <div onClick={downloadFile}>Dowload</div>;
+  return (
+    <div >
+      <div onClick={downloadFile}>Dowload</div>
+      <a
+        ng-if="!loadDemo"
+        href="//q-r.to/handlePost/emilybates/?download=true"
+        rel="external"
+        class="ng-scope"
+      >
+        sdsdsd
+      </a>
+    </div>
+  );
 }
