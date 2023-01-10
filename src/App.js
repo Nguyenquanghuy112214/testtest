@@ -19,10 +19,10 @@ export default function App() {
     <div >
       <div onClick={downloadFile}>Dowload</div>
       <a
-        ng-if="!loadDemo"
-        href="//q-r.to/handlePost/emilybates/?download=true"
-        rel="external"
-        class="ng-scope"
+        // ng-if="!loadDemo"
+        href="//qrco.de/handlePost/bdcPv9/?download=true"
+        // rel="external"
+        // class="ng-scope"
       >
         Tai xuong
       </a>
