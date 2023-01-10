@@ -24,7 +24,7 @@ export default function App() {
         rel="external"
         class="ng-scope"
       >
-        sdsdsd
+        Tai xuong
       </a>
     </div>
   );
